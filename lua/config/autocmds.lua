@@ -1,0 +1,13 @@
+-- Autocmds are automatically loaded on the VeryLazy event
+-- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
+-- Add any additional autocmds here
+-- vim.g.NERDTreeShowHidden = 1 need to learn how to add it for lua
+-- require("neo-tree").setup({
+--   filesystem = {
+--     filtered_items = {
+--       visible = true, -- Show hidden files
+--       hide_dotfiles = false, -- Do not hide dotfiles
+--       hide_gitignored = false, -- Optionally, show files ignored by Git
+--     },
+--   },
+-- })
